@@ -98,7 +98,7 @@ hr{
 .lista-livros {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; /* ou space-between */
+    justify-content: space-around; 
     align-items: stretch;
 }
 
@@ -258,6 +258,7 @@ footer li img{
         width: 100%;
         max-width: 1023px;
         border-radius: 8px;
+        margin-left: 20px;
     } 
 
  
