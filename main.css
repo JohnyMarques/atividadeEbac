@@ -421,6 +421,7 @@ footer li img{
         width: 100%;
         max-width: 1023px;
         border-radius: 8px;
+        margin-left: 20px;
     } 
 
     #sobre-a-loja .texto {
