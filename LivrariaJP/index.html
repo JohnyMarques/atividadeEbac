@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria JP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+ 
+
+</head>
+
+<body>
+    <header>
+        <div class="container2 container-flex">
+            <h1>Livraria JP</h1>
+            <div class="livraria">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li>
+                        <a  href="#sobre-a-loja">Sobre</a>
+                    </li>   
+                    <li>
+                        <a  href="#livros">Livros</a>
+                    </li>
+                  
+                </ul>
+            </div>
+        </nav>
+    </header>
+  
+
+    <section id="sobre-a-loja">
+        <div class="container container-flex">
+            <img src="./img/a-book-5211294_640.jpg" alt="Livraria">
+            <div>
+
+                <h2>Sobre a loja</h2>
+                <hr>
+                <p class="texto">
+                    Bem-vindo à Livraria JP!
+                    Aqui, cada página conta uma história e cada livro é uma nova aventura esperando por você! Somos
+                    apaixonados por literatura e acreditamos no poder transformador da leitura. Na Livraria JP, você encontra um espaço acolhedor repleto de títulos incríveis — dos clássicos
+                    atemporais aos lançamentos mais aguardados.</p>
+                    <p class="texto">
+                        Seja para mergulhar em mundos de fantasia, se emocionar com um bom romance ou expandir seus conhecimentos, temos o livro perfeito para você. Além disso, oferecemos um atendimento personalizado para ajudar você a encontrar exatamente o que procura. Porque aqui, cada leitor importa! 📖 Venha nos visitar e descubra um universo de histórias. Sua próxima leitura inesquecível está te esperando!
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container" id="livros">
+            <h2>Estoque</h2>
+            <hr>
+            <ul class="container-flex lista-livros">
+                <li class="item-central">
+
+                    <img src="./img/jantarSecreto.jpg" alt="Jantar Secreto">
+                    <h3>Livro de terror: Jantar Secreto -<br> Raphael Montes</h3>
+                    <strong>Preço: 120$</strong>
+                    <button type="button">Comprar</button>
+                </li>
+
+                <li class="item-central">
+
+                    <img src="./img/naoMeEsqueca.jpg" alt="Não me esqueça">
+                    <h3>Livro de Romance: Não me esqueça -<br> Julie Soto</h3>
+                    <strong>Preço: 120$</strong>
+                    <button type="button">Comprar</button>
+                </li>
+
+                <li class="item-central">
+                    <img src="./img/o-jogo-do-amor-odio.jpg" alt="O jogo do amor - ódio">
+                    <h3>Livro de cómedia: O jogo do amor - ódio - <br> Sally Thorne</h3>
+                    <strong>Preço: 120$</strong>
+                    <button type="button">Comprar</button>
+                </li>
+
+                <li class="item-central">
+                    <img src="./img/rastroDeSangue.jpg" alt="Rastro de Sangue">
+                    <h3>Livro de terror: Rastro de Sangue - <br> Kerri Maniscalco</h3>
+                    <strong>Preço: 120$</strong>
+                    <button type="button">Comprar</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+
+    
+    <section id="contato">
+        <div class="container adaptar">
+            <h2>Entre em contato</h2>
+            <form>
+                <div class="form-campo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome">
+
+                </div>
+
+                <div class="form-campo">
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" id="telefone" name="telefone">
+
+                </div>
+
+                <div class="form-campo">
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email">
+
+                </div>
+
+                <div class="form-campo">
+
+                    <label for="veiculo-interesse">Livro desejado:</label>
+                    <input type="text" id="veiculo-interesse" name="veiculoInteresse">
+
+                </div>
+
+                <div class="form-campo">
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem"></textarea>
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container container-flex">
+            <p>2025 &copy; Livraria JP - Todos os direitos reservados</p>
+            <ul class="container-flex">
+                <li>
+                    <a href="#">
+                        <img src="./icones/facebook.png" alt="Facebook">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="./icones/instagram.png" alt="instagram">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="./icones/youtube.png" alt="Youtube">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="./js/jquery.mask.min.js"></script>
+<script src="./js/jquery.validate.min.js"></script>
+<script src="./js/messages_pt_BR.min.js"></script>
+
+
+    <script src="./js/main.js">
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <body>
+
+        <header>
+                <h1>Livraria JP</h1>
+                <nav>
+                    <div class="container">
+                    <ul>
+                        <li><a class="afastar" href="#">Sobre a loja</a></li>
+                        <li><a href="#">Produtos</a></li>
+                    </ul>
+                </div>
+                </nav>
+        </header>
+
+        <div class="sobre container" id="sobre">
+            <img src="./img/a-book-5211294_640.jpg" alt="Livraria">
+            <div>
+                <h2>Sobre a loja</h2>
+                <hr>
+                <p class="texto">
+                    Bem-vindo à Livraria JP!
+                    Aqui, cada página conta uma história e cada livro é uma nova aventura esperando por você! Somos
+                    apaixonados por literatura e acreditamos no poder transformador da leitura.
+
+                    Na Livraria JP, você encontra um espaço acolhedor repleto de títulos incríveis — dos clássicos
+                    atemporais aos lançamentos mais aguardados. Seja para mergulhar em mundos de fantasia, se emocionar com
+                    um bom romance ou expandir seus conhecimentos, temos o livro perfeito para você.
+
+                    Além disso, oferecemos um atendimento personalizado para ajudar você a encontrar exatamente o que
+                    procura. Porque aqui, cada leitor importa!
+
+                    📖 Venha nos visitar e descubra um universo de histórias. Sua próxima leitura inesquecível está te
+                    esperando!
+                </p>
+            </div>
+        </div>
+
+        <section class="produtos container" id="produtos">
+            <h2>Produtos</h2>
+            <hr>
+            <ul>
+                <li>
+                    <img src="./img/jantarSecreto.jpg" alt="Jantar Secreto">
+                    <h3>Livro de terror: Jantar Secreto<br>Raphael Montes</h3>
+                    <p>Preço: 120$</p>
+                    <button type="button">Comprar</button>
+                </li>
+
+                <li>
+                    <img src="./img/naoMeEsqueca.jpg" alt="Não me esqueça">
+                    <h3>Livro de Romance: Não me esqueça<br>Julie Soto</h3>
+                    <p>Preço: 120$</p>
+                    <button type="button">Comprar</button>
+                </li>
+
+                <li>
+                    <img src="./img/o-jogo-do-amor-odio.jpg" alt="O jogo do amor - ódio">
+                    <h3>Livro de terror: O jogo do amor - ódio<br>Sally Thorne</h3>
+                    <p>Preço: 120$</p>
+                    <button type="button">Comprar</button>
+                </li>
+
+                <li>
+                    <img src="./img/rastroDeSangue.jpg" alt="Rastro de Sangue">
+                    <h3>Livro de terror: Rastro de Sangue<br>Kerri Maniscalco</h3>
+                    <p>Preço: 120$</p>
+                    <button type="button">Comprar</button>
+                </li>
+            </ul>
+        </section>
+
+</body>
+
+</html> -->
